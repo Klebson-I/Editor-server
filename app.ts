@@ -1,6 +1,7 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
+import { UserManager } from './classes/UserManager/UserManager';
 
 
 const app = express();
